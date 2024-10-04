@@ -44,18 +44,22 @@ section {
 
 #home {
     background-color: #e0f7fa;
+    font-size: 20px;
 }
 
 #sobre {
     background-color: #ffe0b2;
+    font-size: 20px;
 }
 
 #projetos {
     background-color: #dd49f7;
+    font-size: 20px;
 }
 
 #contato {
     background-color: #41fc47;
+    font-size: 20px;
 }
 
 footer {

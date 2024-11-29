@@ -5,6 +5,9 @@ body {
     background-color: #f0f0f0;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 nav {
     background-color: #f0f0f0;
@@ -26,7 +29,7 @@ nav {
 .nav-menu a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 30px; 
+    font-size: 18px;
     transition: color 0.3s;
 }
 
@@ -34,7 +37,7 @@ nav {
     color: #ff9900;
 }
 
-
+/* Seções */
 section {
     padding: 2rem;
     margin: 2rem 0;
@@ -43,69 +46,28 @@ section {
 }
 
 #home {
-    background-color: #e0f7fa;
+    background-color: #add8e6; /* Azul claro */
     font-size: 20px;
 }
 
 #sobre {
-    background-color: #ffe0b2;
+    background-color: #f0e68c; /* Amarelo pastel */
     font-size: 20px;
 }
 
 #projetos {
-    background-color: #dd49f7;
+    background-color: #dda0dd; /* Lilás suave */
+    font-size: 20px;
+}
+
+#tutorial {
+    background-color: #ffd700; /* Amarelo ouro */
     font-size: 20px;
 }
 
 #contato {
-    background-color: #41fc47;
+    background-color: #98fb98; /* Verde claro */
     font-size: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    padding: 0;
-    margin: 0;
-}
-
-.container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #555;
 }
 
 input[type="text"],
@@ -148,18 +110,17 @@ button:hover {
     background-color: #45a049;
 }
 
-.form-group {
-    margin-bottom: 20px;
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-.form-group:last-child {
-    margin-bottom: 0;
-}
-
-.error {
-    color: red;
-    font-size: 14px;
-}
 
 @media (max-width: 600px) {
     .container {
@@ -170,3 +131,4 @@ button:hover {
         padding: 12px;
     }
 }
+
